@@ -10,6 +10,7 @@
 import UIKit
 
 /// Serves as a configuration relay controller, tapping into the main window's rootViewController settings.
+@available(iOSApplicationExtension, unavailable)
 internal class WindowRootViewController: UIViewController {
 
     internal override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
